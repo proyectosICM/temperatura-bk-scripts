@@ -6,8 +6,8 @@ import time
 platform_ids = [1, 2, 3, 4]
 
 # URL base
-BASE_URL = "http://telemetriaperu.com:7079/api/v1/platforms/temperature/"
-
+# BASE_URL = "http://telemetriaperu.com:7079/api/v1/platforms/temperature/"
+BASE_URL = "http://192.168.0.204:7079/api/v1/platforms/temperature/"
 # Tiempo de espera entre ciclos (segundos)
 CYCLE_INTERVAL = 10
 
